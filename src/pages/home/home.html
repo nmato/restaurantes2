@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-fab right bottom> <!--Creem un boto, en la esquina derecha de abajo -->
+    <button ion-fab color="secondary" [navPush]="agregarRestaurante"> <!--Color "secondary" i cuan fem click, va a la pagina -->
+      <ion-icon name="add"></ion-icon> <!--Tindra la icono "add" -->
+    </button>
+  </ion-fab>
+</ion-content>
